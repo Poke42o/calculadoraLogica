@@ -25,7 +25,12 @@ public class Main {
             Integer resultado = sumarDosNumeros(numeroUno, numeroDos);
             System.out.println("el resultado de la suma es: " + resultado);
 
-        } finally {
+
+        } catch (Exception error){
+            System.out.println("Ups!" + error.getMessage());
+        }
+
+        finally {
             System.out.println("gracias, hasta pronto 😁");
             LeerTeclado.close();
         }
@@ -45,6 +50,11 @@ public class Main {
     }
     public static Integer dividirDosNumeros (Integer numeroUno, Integer numeroDos) {
 
+            if (numeroDos == 0) {
+                throw new ArithmeticException("No se puede dividir entre 0");
+            }
+            return numeroUno / numeroDos;
+        }
+
     }
 
-}
