@@ -36,5 +36,15 @@ public class Main {
 
         return numeroUno + numeroDos;
     }
+    public  static  Integer restarDosNumero(Integer numeroUno, Integer numeroDos) {
+
+    }
+
+    public static Integer multiplicarDosNumeros (Integer numeroUno, Integer numeroDos) {
+
+    }
+    public static Integer dividirDosNumeros (Integer numeroUno, Integer numeroDos) {
+
+    }
 
 }
