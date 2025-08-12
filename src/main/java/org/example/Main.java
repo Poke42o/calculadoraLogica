@@ -25,6 +25,9 @@ public class Main {
             Integer resultado = sumarDosNumeros(numeroUno, numeroDos);
             System.out.println("el resultado de la suma es: " + resultado);
 
+            Integer resultadoresta = restarDosNumero(numeroUno, numeroDos);
+            System.out.println("el resultado de la resta es: " + resultadoresta);
+
         } finally {
             System.out.println("gracias, hasta pronto 😁");
             LeerTeclado.close();
@@ -37,6 +40,8 @@ public class Main {
         return numeroUno + numeroDos;
     }
     public  static  Integer restarDosNumero(Integer numeroUno, Integer numeroDos) {
+
+        return  numeroUno - numeroDos;
 
     }
 
