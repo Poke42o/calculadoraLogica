@@ -23,7 +23,7 @@ public class Main {
 
             //Llamando a la funcion que suma los dos numeros
             Integer resultado = sumarDosNumeros(numeroUno, numeroDos);
-            System.out.println("el resultado de la suma es: " + resultado);gi
+            System.out.println("el resultado de la suma es: " + resultado);
 
         } finally {
             System.out.println("gracias, hasta pronto 😁");
