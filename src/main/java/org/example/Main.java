@@ -23,12 +23,7 @@ public class Main {
 
             //Llamando a la funcion que suma los dos numeros
             Integer resultado = sumarDosNumeros(numeroUno, numeroDos);
-            System.out.println("el resultado de la suma es: " + resultado);
-        } catch (InputMismatchException error) {
-            System.out.println("✖️ ERROR: Utilizaste una entrada prohibida");
-
-        } catch (Exception error) {
-            System.out.println("✖️ UPS!: detectamos una operacion indebida, sal de aquí pirata" + error.getMessage());
+            System.out.println("el resultado de la suma es: " + resultado);gi
 
         } finally {
             System.out.println("gracias, hasta pronto 😁");
@@ -38,14 +33,7 @@ public class Main {
     }
     public static Integer sumarDosNumeros(Integer numeroUno, Integer numeroDos) {
 
-        if (numeroUno == 0 && numeroDos == 0) {
-            throw new ArithmeticException("\n No puedes sumar dos ceros consecutivos ");
 
-        } else if
-        (numeroUno <0 && numeroDos <0) {
-            throw new ArithmeticException("\n No puedes sumar numeros negativos consecutivos ");
-
-        }
         return numeroUno + numeroDos;
     }
 
